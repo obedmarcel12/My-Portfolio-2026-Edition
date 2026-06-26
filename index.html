@@ -1,0 +1,407 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Obetech Portfolio | Godfrey Obed</title>
+    <link
+      rel="shortcut icon"
+      href="src/Black and Blue Initials Creative Logo (1).png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </head>
+  <body id="top" class="bg-slate-950 text-slate-100">
+    <header
+      class="sticky top-0 z-50 border-b border-slate-800 bg-slate-950/95 backdrop-blur"
+    >
+      <div
+        class="mx-auto flex max-w-7xl items-center justify-between gap-4 px-6 py-4"
+      >
+        <a href="index.html" class="flex items-center gap-3">
+          <img
+            src="src/Black_and_Blue_Initials_Creative_Logo__1_-removebg-preview.png"
+            alt="Obetech Logo"
+            class="h-16 w-24 rounded-full object-cover"
+          />
+          <div>
+            <p class="text-xs uppercase tracking-[0.35em] text-cyan-400">
+              Obetech
+            </p>
+            <p class="text-sm font-semibold text-slate-100">Godfrey Obed</p>
+          </div>
+        </a>
+
+        <nav
+          class="hidden items-center gap-8 md:flex text-sm font-medium text-slate-200"
+        >
+          <a href="#home" class="hover:text-cyan-300">Home</a>
+          <a href="#work" class="hover:text-cyan-300">Work</a>
+          <a href="#about" class="hover:text-cyan-300">About</a>
+          <a href="#contact" class="hover:text-cyan-300">Contact</a>
+          <a href="about.html" class="hover:text-cyan-300">More</a>
+        </nav>
+
+        <div class="hidden md:block">
+          <a
+            href="contact.html"
+            class="rounded-full bg-cyan-400 px-5 py-2 text-sm font-semibold text-slate-950 transition hover:bg-cyan-300"
+            >Work with me</a
+          >
+        </div>
+
+        <button
+          id="mobileMenuButton"
+          aria-label="Open mobile menu"
+          class="md:hidden rounded-full border border-slate-700 bg-slate-900/90 p-3 text-slate-200 shadow-sm"
+        >
+          <ion-icon name="menu"></ion-icon>
+        </button>
+      </div>
+
+      <div
+        id="mobileMenu"
+        class="hidden z-40 border-t border-slate-800 bg-slate-950/98 px-6 py-4 md:hidden"
+      >
+        <nav class="flex flex-col gap-3 text-sm font-medium text-slate-200">
+          <a
+            href="#home"
+            class="block rounded-2xl px-3 py-2 hover:bg-slate-900 hover:text-cyan-300"
+            >Home</a
+          >
+          <a
+            href="#work"
+            class="block rounded-2xl px-3 py-2 hover:bg-slate-900 hover:text-cyan-300"
+            >Work</a
+          >
+          <a
+            href="#about"
+            class="block rounded-2xl px-3 py-2 hover:bg-slate-900 hover:text-cyan-300"
+            >About</a
+          >
+          <a
+            href="#contact"
+            class="block rounded-2xl px-3 py-2 hover:bg-slate-900 hover:text-cyan-300"
+            >Contact</a
+          >
+          <a
+            href="about.html"
+            class="block rounded-2xl px-3 py-2 hover:bg-slate-900 hover:text-cyan-300"
+            >More</a
+          >
+          <a
+            href="contact.html"
+            class="block rounded-full bg-cyan-400 px-4 py-2 text-center font-semibold text-slate-950"
+            >Let's work</a
+          >
+        </nav>
+      </div>
+    </header>
+
+    <main class="mx-auto flex max-w-7xl flex-col gap-24 px-6 py-10">
+      <section
+        id="home"
+        class="grid gap-12 lg:grid-cols-[1.1fr_0.9fr] lg:items-center"
+      >
+        <div class="space-y-8">
+          <p
+            class="inline-flex items-center gap-2 rounded-full bg-cyan-500/15 px-4 py-2 text-sm text-cyan-300"
+          >
+            <span class="h-2.5 w-2.5 rounded-full bg-cyan-400"></span>
+            Full-stack web design + development
+          </p>
+
+          <div class="space-y-4">
+            <h1
+              class="text-5xl font-black tracking-tight text-white sm:text-6xl animate-slide-up"
+            >
+              Modern websites that speak with clarity and confidence.
+            </h1>
+            <p class="max-w-2xl text-lg leading-8 text-slate-300">
+              I build polished websites, landing pages, and web apps that help
+              brands move faster, sell more, and stand out with intentional
+              design.
+            </p>
+          </div>
+
+          <div class="flex flex-wrap gap-4">
+            <a
+              href="#work"
+              class="inline-flex items-center justify-center rounded-full bg-cyan-400 px-6 py-3 text-sm font-semibold text-slate-950 transition hover:bg-cyan-300"
+              >See my work</a
+            >
+            <a
+              href="src/Godfrey Obed Arinze Professional CV Resume.pdf"
+              download
+              class="inline-flex items-center justify-center rounded-full border border-slate-700 bg-transparent px-6 py-3 text-sm font-semibold text-slate-200 transition hover:border-cyan-400 hover:text-cyan-300"
+              >Download CV</a
+            >
+          </div>
+
+          <div class="grid gap-4 sm:grid-cols-3">
+            <div class="section-card p-5">
+              <p class="text-sm uppercase tracking-[0.3em] text-slate-500">
+                Projects
+              </p>
+              <p class="mt-3 text-3xl font-semibold text-white">8+</p>
+            </div>
+            <div class="section-card p-5">
+              <p class="text-sm uppercase tracking-[0.3em] text-slate-500">
+                Experience
+              </p>
+              <p class="mt-3 text-3xl font-semibold text-white">3 yrs</p>
+            </div>
+            <div class="section-card p-5">
+              <p class="text-sm uppercase tracking-[0.3em] text-slate-500">
+                Specialization
+              </p>
+              <p class="mt-3 text-3xl font-semibold text-white">
+                Web Developer
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="relative overflow-hidden rounded-[2rem] border border-slate-800 bg-slate-900/70 p-6"
+        >
+          <div
+            class="absolute inset-0 bg-[radial-gradient(circle_at_top,_rgba(34,211,238,0.18),_transparent_30%)]"
+          ></div>
+          <div
+            class="relative flex h-full min-h-[28rem] items-end justify-center"
+          >
+            <img
+              src="src/OBETECH IMG.jfif"
+              alt="Godfrey Obed"
+              class="h-[50vh] md:h-[70vh] w-full rounded-[1.5rem] object-cover shadow-2xl ring-1 ring-white/10"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section id="work" class="space-y-8">
+        <div
+          class="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between"
+        >
+          <div>
+            <p class="text-xs uppercase tracking-[0.35em] text-cyan-400">
+              Featured work
+            </p>
+            <h2
+              class="mt-3 text-3xl font-bold text-white sm:text-4xl animate-slide-left stagger-1"
+            >
+              Selected projects that show strong design, reliability, and
+              clarity.
+            </h2>
+          </div>
+          <a href="about.html" class="button-secondary"
+            >Explore more about my process</a
+          >
+        </div>
+
+        <div class="grid gap-6 lg:grid-cols-3">
+          <article class="section-card p-6">
+            <p class="text-xs uppercase tracking-[0.35em] text-slate-500">
+              E-commerce UI
+            </p>
+            <h3 class="mt-4 text-2xl font-semibold text-white">
+              Retail product experience
+            </h3>
+            <p class="mt-3 text-slate-400">
+              A responsive storefront layout built for conversion, clarity, and
+              fast browsing on mobile and desktop.
+            </p>
+            <div class="mt-6 flex items-center gap-2 text-cyan-300">
+              <i class="bi bi-arrow-right-short text-xl"></i>
+              <span class="text-sm font-semibold">View case study</span>
+            </div>
+          </article>
+
+          <article class="section-card p-6">
+            <p class="text-xs uppercase tracking-[0.35em] text-slate-500">
+              Full Stack Project
+            </p>
+            <h3 class="mt-4 text-2xl font-semibold text-white">
+              Dashboard for digital teams
+            </h3>
+            <p class="mt-3 text-slate-400">
+              A modern dashboard that surfaces metrics, actions, and insights
+              with a clean visual hierarchy.
+            </p>
+            <div class="mt-6 flex items-center gap-2 text-cyan-300">
+              <i class="bi bi-arrow-right-short text-xl"></i>
+              <span class="text-sm font-semibold">View case study</span>
+            </div>
+          </article>
+
+          <article class="section-card p-6">
+            <p class="text-xs uppercase tracking-[0.35em] text-slate-500">
+              Brand website
+            </p>
+            <h3 class="mt-4 text-2xl font-semibold text-white">
+              Creative studio presence
+            </h3>
+            <p class="mt-3 text-slate-400">
+              A storytelling site with refined typography and thoughtful spacing
+              that elevates brand positioning.
+            </p>
+            <div class="mt-6 flex items-center gap-2 text-cyan-300">
+              <i class="bi bi-arrow-right-short text-xl"></i>
+              <span class="text-sm font-semibold">View case study</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="about" class="space-y-12">
+        <div class="grid gap-8 lg:grid-cols-[0.95fr_0.9fr] lg:items-center">
+          <div class="space-y-4">
+            <p class="text-xs uppercase tracking-[0.35em] text-cyan-400">
+              About
+            </p>
+            <h2
+              class="text-3xl font-bold text-white sm:text-4xl animate-slide-right stagger-1"
+            >
+              I help businesses translate ideas into polished websites.
+            </h2>
+            <p class="max-w-2xl text-lg leading-8 text-slate-300">
+              My work blends clean code, meaningful interaction, and a strong
+              visual system so every project feels confident and easy to use.
+            </p>
+            <a href="about.html" class="button-primary">Read my story</a>
+          </div>
+          <div class="grid gap-4 sm:grid-cols-2">
+            <div class="section-card p-6">
+              <p class="text-sm uppercase tracking-[0.35em] text-slate-500">
+                Design quality
+              </p>
+              <p class="mt-4 text-xl font-semibold text-white">
+                Thoughtful layouts
+              </p>
+            </div>
+            <div class="section-card p-6">
+              <p class="text-sm uppercase tracking-[0.35em] text-slate-500">
+                Built for launch
+              </p>
+              <p class="mt-4 text-xl font-semibold text-white">
+                Fast and polished
+              </p>
+            </div>
+            <div class="section-card p-6">
+              <p class="text-sm uppercase tracking-[0.35em] text-slate-500">
+                Client focus
+              </p>
+              <p class="mt-4 text-xl font-semibold text-white">
+                Reliable delivery
+              </p>
+            </div>
+            <div class="section-card p-6">
+              <p class="text-sm uppercase tracking-[0.35em] text-slate-500">
+                Tools
+              </p>
+              <p class="mt-4 text-xl font-semibold text-white">
+                HTML, CSS, JS, React
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        id="contact"
+        class="rounded-[2rem] border border-slate-800 bg-slate-900/70 p-8"
+      >
+        <div class="grid gap-8 lg:grid-cols-[1fr_0.9fr] lg:items-center">
+          <div class="space-y-4">
+            <p class="text-xs uppercase tracking-[0.35em] text-cyan-400">
+              Let's collaborate
+            </p>
+            <h2
+              class="text-3xl font-bold text-white sm:text-4xl animate-fade-blur"
+            >
+              Ready to build something that stands out?
+            </h2>
+            <p class="max-w-xl text-slate-400">
+              If you have a project idea, a brand refresh, or a website that
+              needs to work harder, let's talk.
+            </p>
+            <a href="contact.html" class="button-primary">Message me</a>
+          </div>
+          <div class="grid gap-4 sm:grid-cols-2">
+            <div class="section-card p-6">
+              <p class="text-sm uppercase tracking-[0.35em] text-slate-500">
+                Email
+              </p>
+              <p class="mt-3 text-lg font-semibold text-white">
+                obed@example.com
+              </p>
+            </div>
+            <div class="section-card p-6">
+              <p class="text-sm uppercase tracking-[0.35em] text-slate-500">
+                Location
+              </p>
+              <p class="mt-3 text-lg font-semibold text-white">
+                Abia State, Nigeria
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer
+      class="border-t border-slate-800 bg-slate-950/95 py-8 text-slate-500"
+    >
+      <div
+        class="mx-auto flex max-w-7xl flex-col gap-4 px-6 sm:flex-row sm:items-center sm:justify-between"
+      >
+        <p class="text-sm">© 2026 Godfrey Obed. Built for modern brands.</p>
+        <div class="flex flex-wrap items-center gap-4 text-sm text-slate-400">
+          <a
+            href="https://www.linkedin.com/in/godfrey-obed-arinze-a2b3b8283"
+            target="_blank"
+            rel="noreferrer"
+            class="hover:text-cyan-300"
+            >LinkedIn</a
+          >
+
+          <a
+            href="https://www.instagram.com/vibesmatchday?igsh=ZjNzaTdwZXAxMHo3"
+            target="_blank"
+            rel="noreferrer"
+            class="hover:text-cyan-300"
+            >Instagram</a
+          >
+          <a
+            href="https://www.facebook.com/profile.php?id=61583069627706"
+            target="_blank"
+            rel="noreferrer"
+            class="hover:text-cyan-300"
+            >Facebook</a
+          >
+        </div>
+      </div>
+    </footer>
+
+    <script src="index.js"></script>
+  </body>
+</html>

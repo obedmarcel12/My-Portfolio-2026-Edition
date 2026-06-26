@@ -1,0 +1,7 @@
+/* Contact page specific styles. Shared styles are defined in index.css. */
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+}
