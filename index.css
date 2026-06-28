@@ -189,6 +189,13 @@ a.button-secondary {
   border-radius: 1.75rem;
 }
 
+.email-link {
+  max-width: 100%;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+  line-height: 1.45;
+}
+
 .button-primary {
   display: inline-flex;
   align-items: center;
